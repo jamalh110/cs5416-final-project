@@ -188,7 +188,7 @@ You may use any programming language, but Python is recommended (starter code is
 **3 nodes, each with:**
 - CPU: Intel(R) Xeon(R) Gold 6242 @ 2.80GHz
 - 16 GB RAM
-- GPU: NVIDIA Tesla T4, 16 GB VRAM
+- GPU: NVIDIA Tesla T4, 15 GB VRAM
 
 **Key note:** 16 GB RAM is a hard practical constraint. If you go over, you'll hit swap → very slow.
 
