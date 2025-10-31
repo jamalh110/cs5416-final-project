@@ -76,6 +76,7 @@ Grades for this project will be primarily based on how many systems concepts you
 **All Tier 2 requirements PLUS at least 2 of:**
 - A switch to turn on GPU acceleration
 - Caching strategies
+- Running stages simultaneously when possible
 - Data compression for inter-node communication
 - Exceptional profiling with detailed analysis of system bottlenecks
 - Top tier performance on the leaderboard
