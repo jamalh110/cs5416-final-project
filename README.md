@@ -133,6 +133,8 @@ When we run your code, we will provide:
 - `TOTAL_NODES` — will be 3
 - `NODE_NUMBER` — will be 0, 1, or 2
 - `NODE_0_IP`, `NODE_1_IP`, `NODE_2_IP` — IPs for each node
+- `FAISS_INDEX_PATH` – Filepath for the FAISS index
+- `DOCUMENTS_DIR` – Directory for the collection of documents
 
 You must use these to:
 - Differentiate per-node roles
@@ -144,12 +146,15 @@ You must use these to:
 - Node 0 must orchestrate the full pipeline and return the final response to the client
 
 ### 6.3 Request / Response Format
-<working on>
+Request format:
+- `request_id: string`
+- `query: string`
 
 Your final response to the client must include:
-- `generated_response`
-- `sentiment`
-- `sensitivity_result`
+- `request_id: string`
+- `generated_response: string`
+- `sentiment: string | "very negative" or "negative" or "neutral" or "positive" or "very positive"`
+- `sensitivity_result: string | "True" or "False"`
 
 ### 6.4 Implementation Examples
 
@@ -173,6 +178,7 @@ Your final response to the client must include:
 - transformers
 - numpy
 - datasets
+- jinja2
 - faiss
 - requests
 - flask
