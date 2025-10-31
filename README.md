@@ -114,7 +114,9 @@ Starter code is inside this repository
 
 It Contains a monolithic pipeline that already performs the stages above. You must preserve accuracy/correctness while distributing and optimizing it.
 
-It also contains a client script that follows the same spec that we will use to test your implementations. It is essential that your implemetation is compatible with this script
+It also contains a client script that follows the same spec that we will use to test your implementations. It is essential that your implemetation is compatible with this script.
+
+Note that the given monolothic pipeline is not at all optimal. Since the combined size of the components is too large to fit in 16gb of memory, it has to remove from and reload components into memory during a single pipeline execution. Furthermore, it only uses a batch size of 1.
 
 ## 6. System Requirements / Spec
 
