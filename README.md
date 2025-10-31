@@ -33,7 +33,7 @@ This is the kind of work ML systems engineers actually do.
 
 ## 2. Objective
 
-You will be given a barebones monolithic implementation of an ML pipeline (link provided in the starter code section). Your job is to:
+You will be given a barebones monolithic implementation of an ML pipeline (details provided in the starter code section). Your job is to:
 
 1. **Transform it into a distributed service that runs across 3 nodes**
 2. **Implement batching** (batch requests together when possible)
