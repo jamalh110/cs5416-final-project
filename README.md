@@ -213,7 +213,7 @@ Submit your full codebase with:
 
 ### 10.2 Report
 
-**IMPORTANT: ** The profiling that you do for the report should be done on UGClinux or your group's local computers. If you implement GPU acceleration, you do not need to worry about running your profiling on GPUs. You will still receive full credit for your GPU implementation even if your report profiling is done on CPU
+**IMPORTANT:** The profiling that you do for the report should be done on UGClinux or your group's local computers. If you implement GPU acceleration, you do not need to worry about running your profiling on GPUs. You will still receive full credit for your GPU implementation even if your report profiling is done on CPU
 
 Your report must include:
 
